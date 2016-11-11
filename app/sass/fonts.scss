@@ -2,3 +2,5 @@
 
 @include font-face("roboto", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
 @include font-face("roboto", "../fonts/RobotoBold/RobotoBold", bold, $file-formats: eot woff ttf);
+@include font-face("MontserratRegular", "../fonts/Montserrat-Regular/Montserrat-Regular", $file-formats:ttf);
+@include font-face("MontserratBold", "../fonts/Montserrat-Bold/Montserrat-Bold", bold, $file-formats:ttf);

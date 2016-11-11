@@ -3,8 +3,35 @@
 @import 'sass/base';
 
 //First screen styles
-.block{
-    width: 100%;
-    height: 100px;
-    @include linear-gradient(to top, #8fdce5, #3dc3d1);
+header{
+    min-height: 1000px;
+    background: url(img/header-bg.jpg) no-repeat ;
+}
+.header__logo-title{
+    font-family: "MontserratRegular" sans-serif;
+    font-size: 16px;
+}
+.header__logo-decor{
+    font-weight: bold
+}
+.header-top{
+    line-height: 70px;
+}
+.menu{
+    text-align: right;
+}
+.header__item{
+    display: inline-block;
+}
+.header__link{
+    display: block;
+    padding: 0 10px;
+    font-family:"MontserratRegular" sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#26272d;
+    
+    &:hover{
+        text-decoration: none;
+    }
 }
