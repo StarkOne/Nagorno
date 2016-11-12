@@ -4,7 +4,8 @@
 
 //First screen styles
 header{
-    min-height: 1000px;
+    font-family:"MontserratRegular" sans-serif;
+    min-height: 750px;
     background: url(img/header-bg.jpg) no-repeat ;
 }
 .header__logo-title{
@@ -16,6 +17,7 @@ header{
 }
 .header-top{
     line-height: em(70px);
+    margin-bottom: 210px;
 }
 .menu{
     text-align: right;
@@ -33,5 +35,29 @@ header{
     
     &:hover{
         text-decoration: none;
+    }
+}
+.header__content{
+    text-align: center;
+    margin: 0 160px;
+}
+.header__content-title{
+    font-size: em(60px);
+    line-height: 72px;
+    font-weight: bold;
+}
+.header__content-desc{
+    font-size: em(20px);
+    padding: 0 110px;
+    margin-bottom: 30px;
+}
+.header__content-link{
+    color: #26272d;
+    border:1px solid #26272d;
+    padding: 13px 55px;
+    border-radius: 25px;
+    
+    &:hover{
+        color: #26272d;
     }
 }
