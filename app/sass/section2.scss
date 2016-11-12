@@ -1,0 +1,48 @@
+@import 'bourbon';
+@import 'vars';
+
+.feat__content{
+    padding: 100px 0;
+}
+.feat__left{
+    position: relative;
+    text-align: left;
+    padding: 60px 365px 25px 28px;
+    width: 810px;
+    border:2px solid #267df4;
+    min-height: 400px;
+    
+    &::before{
+        position: absolute;
+        top: -29px;
+        width: 80px;
+        height: 50px;
+        content: "";
+        background: url("../img/vel.png") no-repeat;
+    }
+}
+.feat__left-title{
+    text-transform: uppercase;
+    max-width: 250px;
+    font-size: em(30px);
+    line-height: 34px;
+    margin-bottom: 30px;
+}
+.feat__left-desc{
+    font-size: 14px;
+    line-height: 24px;
+    color:#9fa3a7;
+    
+    p{
+        margin-bottom: 30px;
+    }
+}
+.feat__right{
+    position: absolute;
+    top: 16px;
+    right: -358px;
+    min-height: 425px;
+    width: 600px;
+    background: url(../img/pk.png) no-repeat;
+    
+}
