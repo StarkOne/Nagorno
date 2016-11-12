@@ -9,13 +9,13 @@ header{
 }
 .header__logo-title{
     font-family: "MontserratRegular" sans-serif;
-    font-size: 16px;
+    font-size: em(16px);
 }
 .header__logo-decor{
     font-weight: bold
 }
 .header-top{
-    line-height: 70px;
+    line-height: em(70px);
 }
 .menu{
     text-align: right;
@@ -27,7 +27,7 @@ header{
     display: block;
     padding: 0 10px;
     font-family:"MontserratRegular" sans-serif;
-    font-size: 16px;
+    font-size: em(16px);
     text-transform: uppercase;
     color:#26272d;
     
