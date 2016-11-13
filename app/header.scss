@@ -5,7 +5,7 @@
 //First screen styles
 header{
     font-family:"MontserratRegular" sans-serif;
-    min-height: 800px;
+    min-height: 100vh;
     background: url(img/header-bg.jpg) no-repeat ;
 }
 .header__logo-title{
@@ -39,7 +39,9 @@ header{
 }
 .header__content{
     text-align: center;
-    margin: 0 160px;
+}
+.header-main{
+    text-align: center;
 }
 .header__content-title{
     font-size: em(60px);
@@ -48,7 +50,7 @@ header{
 }
 .header__content-desc{
     font-size: em(20px);
-    padding: 0 110px;
+    padding: 0 266px;
     margin-bottom: 30px;
 }
 .header__content-link{
