@@ -1,3 +1,45 @@
 @import 'bourbon';
 @import 'vars';
 @import 'base';
+.map{
+    background: url("../img/Dot.jpg") no-repeat;
+    padding: 200px 0px 100px;
+}
+.map__title{
+    font-size: 42px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+}
+.map__desc{
+    color: #8c8f94;
+    text-align: center;
+    padding: 12px 0 43px;
+}
+.btn{
+    text-align: center;
+    background: #267df4;
+    padding: 12px 0;
+    border-radius: 25px;
+    color: #fff;
+    margin-bottom: 172px;
+    &:hover{
+        color: #fff;
+        box-shadow: 0 0 45px #0960d7;
+    }
+}
+.map__item{
+    text-align: center;
+}
+.map__number{
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 40px;
+    .point{
+        color: #267df4;
+    }
+}
+.map__number-desc{
+    color: #0960d7;
+}
