@@ -1,0 +1,104 @@
+@import 'bourbon';
+@import 'vars';
+@import 'base';
+
+.services{
+    background: #f5f5f8;
+    padding: 60px 0px;
+    border-top:6px solid #ededee;
+}
+.services__title{
+    color: #26272d;
+    text-align: center;
+    font-size: 42px;
+    line-height: 52px;
+    position: relative;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 50px;
+        display: block;
+        bottom: -25px;
+        background: #267df4;
+        transform: translateX(-50%);
+        left:50%;
+    }
+}
+.services__desc{
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    color: #8c8f94;
+}
+.content__item{
+    width: 270px;
+    margin-top: 50px;
+    text-align: center;
+}
+.content__title{
+    font-size: 13px;
+    line-height: 22px;
+    color: #26272d;
+}
+.content__desc{
+    color: #8c8f94;
+    font-size: 13px;
+    line-height: 22px;
+}
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.sprite-Forma-1 {
+    width: 103px;
+    height: 60px;
+    background-position: -30px -30px;
+}
+
+.sprite-anchor {
+    width: 60px;
+    height: 60px;
+    background-position: -193px -30px;
+}
+
+.sprite-basket {
+    width: 61px;
+    height: 60px;
+    background-position: -30px -150px;
+}
+
+.sprite-chemestry {
+    width: 38px;
+    height: 60px;
+    background-position: -151px -150px;
+}
+
+.sprite-microphone {
+    width: 38px;
+    height: 60px;
+    background-position: -249px -150px;
+}
+
+.sprite-paper-plane {
+    width: 61px;
+    height: 61px;
+    background-position: -347px -30px;
+}
+
+.sprite-photo {
+    width: 73px;
+    height: 60px;
+    background-position: -347px -151px;
+}
+
+.sprite-rocket {
+    width: 59px;
+    height: 60px;
+    background-position: -30px -271px;
+}
