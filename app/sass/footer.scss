@@ -20,9 +20,34 @@ footer{
     font-size: 14px;
     line-height: 24px;
 }
-.footer__keep{
-    
+.keep__ltem{
+    background: url("../img/icon-keep.png") no-repeat;
+    padding-left: 33px;
 }
+.keep__title{
+    font-size: 19px;
+    line-height: 22px;
+    color: #26272d;
+}
+.letter{
+    background-position: 3px 5px;
+}
+.tell{
+    background-position: 3px -134px;
+}
+.Fax{
+    background-position: 3px -252px;
+}
+.point{
+    background-position: 3px -361px;
+}
+
 .featured__title{
-    
+    font-size: 19px;
+    line-height: 22px;
+    color: #26272d;
+}
+.featured__link{
+    display: block;
+    margin-top:16px 0px;
 }
