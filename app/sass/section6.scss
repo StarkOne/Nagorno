@@ -1,0 +1,32 @@
+@import 'bourbon';
+@import 'vars';
+
+.sub{
+    text-align: center;
+}
+.sup__title{
+    font-size: 42px;
+    line-height: 52px;
+    color: #26292c;
+}
+.sup__form{
+    border:1px solid #bbb;
+    display: inline-block;
+    padding: 5px;
+    border-radius:30px;
+    margin-bottom: 120px;
+}
+input[type="submit"]{
+    outline:none;
+    text-align: right;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 1px solid #6fc754;
+    background: #6fc754;
+}
+input[type="email"]{
+    border: none;
+    padding: 0px 16px;
+    outline:none;
+    width: 73%;
+}
