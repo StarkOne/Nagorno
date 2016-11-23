@@ -6,6 +6,7 @@ footer{
     font-size: em(16px);
     background: #f5f5f8;
     padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 .footer__title{
@@ -49,5 +50,51 @@ footer{
 }
 .featured__link{
     display: block;
-    margin-top:16px 0px;
+    padding: 2px 0px;
+    color: #8c8f94;
+    font-size: 16px;
+    line-height: 36px;
+}
+.footer__main{
+    margin-bottom: 150px;
+}
+.social__list{
+    display: inline-block;
+}
+.social__link{
+    display: block;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid;
+    background: url("../img/spritesheet1.png") no-repeat;
+    box-shadow: 0 0 15px;
+}
+.tw{
+    background-position: -98px -105px;
+    border-color:#34aee2;
+}
+.fb{
+    background-position: -21px -26px;
+    border-color:#375ba4;
+}
+.pi{
+    background-position: -176px -26px;
+    border-color:#d03b42;
+}
+.in{
+    background-position: -97px -25px;
+    border-color:#0e7eb9;
+}
+.author__name{
+    color: #474A51;
+    font-size: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 1px solid #555;
+    background: linear-gradient(90deg,#808080     ,#E6E6E6);
+    
+    &:hover{
+        background: linear-gradient(90deg,#D585FF ,#00FFEE);
+    }
 }
